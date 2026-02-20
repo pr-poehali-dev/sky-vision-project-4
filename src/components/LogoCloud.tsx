@@ -2,14 +2,14 @@ import { motion } from "framer-motion"
 import { Sparkles, Zap, Globe, Hexagon, Diamond, Star, Circle, Square } from "lucide-react"
 
 const companies = [
-  { name: "TechFlow", icon: Zap },
-  { name: "Quantum", icon: Hexagon },
-  { name: "Alpine", icon: Diamond },
-  { name: "Stellar", icon: Star },
-  { name: "Nova", icon: Sparkles },
-  { name: "Nimbus", icon: Globe },
-  { name: "Prism", icon: Circle },
-  { name: "Vertex", icon: Square },
+  { name: "Водоканал", icon: Zap },
+  { name: "Газпром", icon: Hexagon },
+  { name: "Лукойл", icon: Diamond },
+  { name: "РЖД", icon: Star },
+  { name: "Росатом", icon: Sparkles },
+  { name: "ТГК-1", icon: Globe },
+  { name: "МРСК", icon: Circle },
+  { name: "ЖКХ-Строй", icon: Square },
 ]
 
 export function LogoCloud() {
@@ -24,7 +24,7 @@ export function LogoCloud() {
             transition={{ duration: 0.6 }}
             className="text-lg text-zinc-300 mb-2"
           >
-            Выбор лучших продуктовых команд мира.
+            Нам доверяют промышленные предприятия по всей России.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ export function LogoCloud() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg text-zinc-500 mb-16"
           >
-            От амбициозных стартапов до крупных корпораций.
+            От небольших производств до крупных холдингов и госпредприятий.
           </motion.p>
 
           <motion.div
